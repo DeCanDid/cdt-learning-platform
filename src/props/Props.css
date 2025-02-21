@@ -1,0 +1,36 @@
+.testimonail_card{
+    width: 30%;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #333333;
+    color: #fff;
+    margin:  10px;
+}
+.testimonail_card > div:nth-of-type(1){
+    display: flex;
+    align-items: center;
+}
+.testimonail_card article{
+    margin: 20px 0;
+}
+
+/* courseCard props */
+.card_col{
+    width: 32%;
+    margin: 10px 0;
+}
+
+.card-body a{
+    background-color: #1E90FF;
+}
+.card-body a:hover{
+    background-color: #1E90FF;
+}
+
+/* card styling */
+.courses_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

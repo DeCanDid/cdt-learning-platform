@@ -1,0 +1,199 @@
+section.section_one > div, section.section_two > div{
+    width: 90%;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.section_one > div > div, 
+section.section_two > div > div
+{
+    width: 45%;
+}
+
+section.section_one h2{
+    font-size: 57px;
+    color: #1E90FF;
+    margin-bottom: 20px;
+}
+
+section.section_one h6{
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+
+section.section_one > div div:nth-of-type(2){
+    background-image: url('../IMAGES/Vector1.png');
+    background-repeat: no-repeat;
+    /* height: 500px; */
+    position: relative;
+    /* width: 30%; */
+    background-position: center;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+section.section_one > div div:nth-of-type(2) > img{
+    width: 70%;
+    /* position:absolute; */
+}
+
+.section_two{
+    margin: 100px 0;
+}
+
+section.section_two > div > div:nth-of-type(1){
+    width: 40%;
+}
+
+section.section_two > div > div:nth-of-type(2){
+    width: 55%;
+}
+
+section.section_two > div > div:nth-of-type(2) div:nth-of-type(1){
+    padding:3px 8px;
+    border-radius: 0 0 5px 5px;
+    box-shadow:0 2px 3px 2px #1E90FF;  
+}
+
+section.section_two > div > div:nth-of-type(2) div:nth-of-type(3){
+    text-align: end;    
+}
+
+.learn_more button{
+    padding: 5px 40px;
+    background-color: #E5B11D;
+    border: none;
+    outline: none;
+}
+
+.learn_more button > a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+}
+
+section.section_three > div > aside{
+    text-align: center;
+    margin: 40px 0;
+}
+
+section.section_three > div > aside h2{
+    color: #1E90FF;
+    font-size: 45px;
+}
+
+section.section_three > div > aside h6{
+    font-size: 25px;
+}
+section.section_three > div{
+    width: 90%;
+    margin: auto;
+}
+
+section.section_three > div > div{
+    display: flex;
+    justify-content: space-between;
+}
+section.section_three > div > aside:nth-of-type(2) > button{
+    padding: 8px 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #E5B11D;
+}
+
+section.section_three > div > aside:nth-of-type(2) a{
+    color: #FFF;
+    font-size: larger;
+    text-decoration: none;
+}
+
+section.section_four{
+    height: 400px;
+    background-image: url('../IMAGES/blue_bg.png');
+    align-content: center;
+}
+
+section.section_four > div{
+    width: 60%;
+    margin: auto;
+    color: #FFF;
+    text-align: center;
+}
+
+section.section_four > div h1{
+    font-size: 55px;
+}
+
+section.section_four > div div:nth-of-type(2){
+    margin-top: 80px;
+}
+
+
+section.section_four > div div:nth-of-type(2) 
+button:nth-of-type(1){
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #1E90FF;
+    font-size: large;
+    margin: 0 10px;
+}
+
+section.section_four > div div:nth-of-type(2) 
+button:nth-of-type(2){
+    padding: 10px 30px;
+    border: 1px solid #1E90FF;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: large;
+    margin: 0 10px;
+}
+
+section.section_four > div div:nth-of-type(2) a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 700;
+
+}
+
+/* userLogged in component styling */
+section.newUser_section > div{
+    width: 90%;
+    margin: 50px auto;
+}
+.newUser_section h2{
+    color: #1E90FF;
+    font-size: 40px;
+}
+
+.newUser_section h6{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.newUser_section > div > div:nth-of-type(1){
+    width: 40%;
+}
+.newUser_section a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 600;
+}
+
+.nested_link{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin: 40px 0;
+}
+
+.courses_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
