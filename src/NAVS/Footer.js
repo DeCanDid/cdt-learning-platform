@@ -6,9 +6,9 @@ import { faFacebookF, faLinkedin, faSquareInstagram, faSquareYoutube, faXTwitter
 const Footer = () => {
   return (
     <>
-      <footer>
-        <div className="footer_row">
-          <aside>
+      <footer className='my-5 p-3'>
+        <div className="row justify-content-around footer_row">
+          <aside className='col-lg-3 p-2 '>
             <figure>
               <img src={require("../IMAGES/cdt_logo.png")} alt="" />
             </figure>
@@ -45,7 +45,7 @@ const Footer = () => {
 
           </aside>
 
-          <aside className="Quick_Links">
+          <aside className="col-lg-3 p-2 Quick_Links">
             <h6>About Us</h6>
             <article className='mt-4'>
               <small>
@@ -56,7 +56,7 @@ const Footer = () => {
             </article>
           </aside>
 
-          <aside className="Quick_Links">
+          <aside className="col-lg-3 p-2  Quick_Links">
             <h6>Quick Links</h6>
             <article className='mt-4'>
             <small>
@@ -80,7 +80,7 @@ const Footer = () => {
             </article>
           </aside>
 
-          <aside className="Quick_Links">
+          <aside className="col-lg-3 p-2  Quick_Links">
             <h6>Legal Links</h6>
             
             <article className='mt-4'>

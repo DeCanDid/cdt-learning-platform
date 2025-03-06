@@ -1,16 +1,13 @@
-header{
-    background-color: transparent;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 80px;
-}
-header nav button{
-    background-color: transparent;
-    padding: 5px 0;
-    border: 2px solid #1E90FF;
-}
-header nav a{
-    margin: 0 15px;
-    text-decoration: none;
-    color: black;
-}
+ /* border: 2px solid #1E90FF; */
+
+ @media (max-width:600px) {
+    .navbar{
+        padding: 20px 0 !important;
+    }
+    .container-fluid{
+        padding: 0 12px !important;
+    }
+    .logo_link > img{
+        width: 150px;
+    }
+ }

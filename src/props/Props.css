@@ -34,3 +34,18 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+/* media query */
+@media (max-width:800px) {
+    .card_col{
+        width: 48%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width:620px) {
+    .card_col{
+        width: 100%;
+        margin: 10px 0;
+    }
+}

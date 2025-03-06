@@ -1,5 +1,6 @@
 import './Style.css';
 import TestimonialCard from '../props/TestimonialCard';
+import Question from './Question';
 
 const LandingPage = () => {
   return (
@@ -11,9 +12,9 @@ const LandingPage = () => {
           <div>
 
             <div>
-              <h2>Exclusive Summer Coding And Fun 2025</h2>
-              <h6>Give your child the opportunity to explore tech with fun</h6>
-              <p>
+              <h2 className='display-5 fw-bold mb-4'>Exclusive Summer Coding And Fun 2025</h2>
+              <h6 className=''>Give your child the opportunity to explore tech with fun</h6>
+              <p className='lead'>
                 Our summer coding and fun program is designed to teach kids how
                 to create real-world projects that they can be proud of. Your
                 child will learn Web Development, Game Development, App
@@ -132,6 +133,8 @@ const LandingPage = () => {
                 <button>
                     <a href="#">Learn More</a>
                 </button>
+
+                {/* <Question/> */}
             </div>
             </div>
         </section>

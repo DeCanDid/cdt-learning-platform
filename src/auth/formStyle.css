@@ -1,0 +1,10 @@
+.signup_img, .login_img{
+      height: 400px;
+      background-image: url('../IMAGES/Vector.png') !important;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+}
+.signup_img > img, .login_img > img{
+    width: 650px;
+}

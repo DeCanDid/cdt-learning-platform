@@ -197,3 +197,23 @@ section.newUser_section > div{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+@media (max-width:960px) {
+
+    .newUser_section > div .welcome{
+        width: 90% !important;
+    }
+    .nested_link{
+        width: 50%;
+    }
+}
+
+@media (max-width:620px) {
+
+    .newUser_section > div .welcome{
+        width: 100% !important;
+    }
+    .nested_link{
+        width: 80%;
+    }
+}
